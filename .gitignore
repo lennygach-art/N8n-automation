@@ -1,0 +1,25 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# MT5/Wine installation, profiles, and account data
+mt5_config/
+
+# Local n8n credentials and generated runtime data
+workspace/N8N workspace obsidian/credentials.md
+workspace/N8N workspace obsidian/.obsidian/
+workspace/N8N workspace obsidian/*.sync-conflict-*.canvas
+workspace/mt5_queue/
+workspace/data/
+
+# Local databases and backups
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
